@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
+
+// npm install -g pnpm
+// pnpm create vite@latest my-react-app --template typescript
+// pnpm install
+// pnpm i @emotion/css
+// pnpm i @emotion/styled @emotion/react
+// pnpm install antd --save
+// pnpm install @reduxjs/toolkit
+// pnpm install react-redux
+// pnpm i react-router-dom
+// tailwind css:
+// https://tailwindcss.com/docs/guides/vite
+
+// .
